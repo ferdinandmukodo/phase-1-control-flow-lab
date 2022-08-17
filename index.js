@@ -20,10 +20,12 @@ function ternaryCheckCity(cityName){
 function switchOnCharmFromTip(tipAmount){
   // Write your code here!
 	switch (tipAmount) {
-		case 'generous' : Response = 'Thank you so much.'; break;
-		case 'not as generous': Response = 'Thank you.'; break;
+		case 'generous' : Response = 'Thank you so much.'; 
+    break;
+		case 'not as generous': Response = 'Thank you.';
+     break;
 		default : Response = 'Bye.';
 	}
 	return Response;
 }
-var Response = "";
+let Response = "";
